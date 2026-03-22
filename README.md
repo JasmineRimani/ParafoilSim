@@ -1,6 +1,6 @@
 # PIMENTO
 
-`PIMENTO` is a Python starter for preliminary parafoil sizing and low-fidelity trajectory simulation.
+`PIMENTO` is a lightweight Python toolkit for preliminary parafoil sizing and low-fidelity trajectory simulation. It is designed for early-stage engineering studies, rapid trade analysis, and research prototyping.
 
 It is inspired by the public paper "An Approach to the Preliminary Sizing and Performance Assessment of Spaceplanes' Landing Parafoils" and by the author's earlier research codebase.
 
@@ -30,13 +30,23 @@ The example uses a paper-like public case with:
 
 ## Notes on Scope
 
-The aerodynamic surrogate is intentionally low fidelity. The paper itself notes that aerodynamic modelling remains the biggest open point for generalization, so this package keeps the model simple and transparent instead of embedding tuned partner-specific curves.
-
-The `nine_dof` module should be read as a public research starter: it gives a generic coupled canopy-payload structure with joint stiffness and damping, but it is not a validated recreation of the original case-study model.
+PIMENTO is intentionally low fidelity and focuses on early-stage design insight, not high-accuracy prediction.
+The aerodynamic model is simplified and not tuned to specific systems
+Results should be interpreted as trend-level guidance, not final design data
+The nine_dof module is experimental and not validated against flight data
 
 ## Sources
 
-- Paper: https://www.mdpi.com/2226-4310/9/12/823
+This work is inspired by:
 
-## License
+An Approach to the Preliminary Sizing and Performance Assessment of Spaceplanes' Landing Parafoils(https://www.mdpi.com/2226-4310/9/12/823)
+
+## Intended Use
+
+PIMENTO is best suited for:
+
+Early design exploration
+Trade studies
+Academic research
+Concept validation
 
