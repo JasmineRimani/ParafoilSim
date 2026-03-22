@@ -39,7 +39,7 @@ The nine_dof module is experimental and not validated against flight data
 
 This work is inspired by:
 
-An Approach to the Preliminary Sizing and Performance Assessment of Spaceplanes' Landing Parafoils(https://www.mdpi.com/2226-4310/9/12/823)
+[An Approach to the Preliminary Sizing and Performance Assessment of Spaceplanes' Landing Parafoils](https://www.mdpi.com/2226-4310/9/12/823)
 
 ## Intended Use
 
